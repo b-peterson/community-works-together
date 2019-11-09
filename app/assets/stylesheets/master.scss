@@ -1,1 +1,29 @@
 @import "bootstrap";
+
+#landing-title {
+    text-align: center;
+    color: #ececec;
+    background: url(landing-page.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+#landing-title h2 {
+    padding-top: 20vh;
+    font-size: 40px;
+}
+
+#landing-title h1 {
+    font-size: 140px;
+}
+
+.landing-button {
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
