@@ -8,11 +8,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #landing-title h2 {
-    padding-top: 20vh;
+    padding-top: 10%;
     font-size: 40px;
 }
 
@@ -26,4 +26,14 @@
     padding-right: 30px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.shadow-box {
+    text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    width: 100vh;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 25px;
 }
