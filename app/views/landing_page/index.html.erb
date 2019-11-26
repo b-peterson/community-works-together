@@ -1,10 +1,10 @@
 <div id="landing-title" class="row">
-    <div class="col-12">
+    <div class="col-12 landing-div">
         <div class="shadow-box">
             <h2>Community Works</h2>
             <h1>Together</h1>
-            <button class="btn btn-outline-primary btn-lg landing-button">Sign Up</button>
-            <button class="btn btn-outline-primary btn-lg landing-button">Log In</button>
+            <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-outline-primary btn-lg landing-button' %>
+            <%= link_to 'Sign In', new_user_session_path, class: 'btn btn-outline-primary btn-lg landing-button' %>
         </div>
     </div>
 </div>
